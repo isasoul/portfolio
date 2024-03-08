@@ -34,8 +34,7 @@ const ServiceCard = ({ index , title, icon }) => {
 
     </Tilt>
   )
-
-}
+};
 
 const About = () => {
   return (
@@ -69,4 +68,4 @@ const About = () => {
   )
 }
 
-export default SectionWrapper(About , "about")
+export default SectionWrapper(About , "about");

@@ -21,10 +21,11 @@ import {
   threejs,
   csharp,
   dotnet,
-  sqlserver,
   wordpress,
   mysql,
-  bootstrap,
+  apiweb,
+  isasoul,
+  efconsulting,
   } from "../assets";
   
   export const navLinks = [
@@ -41,22 +42,23 @@ import {
       title: "Contact",
     },
   ];
-  
+
+
   const services = [
     {
-      title: "Web Developer",
+      title: "Dotnet Developer",
       icon: web,
     },
     {
-      title: "Backend Developer",
+      title: "React Developer",
       icon: backend,
     },  
   {
-    title: ".Net Developer" ,
+    title: "Wordpress Developer" ,
     icon: creator,
   },
   {
-    title: "React Developer",
+    title: "maintenance and support",
     icon: mobile,
   },
 ];
@@ -74,6 +76,10 @@ const technologies = [
   {
     name: "Wordpress",
     icon: wordpress,
+  },
+  {
+    name: "HTML 5",
+    icon: html,
   },
   {
     name: "CSS 3",
@@ -183,68 +189,69 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Sales System Backend",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "The sales system backend serves as the backbone of a comprehensive sales solution, managing the core functionalities required for efficient sales operations.",
     tags: [
       {
-        name: "react",
+        name: "C#",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Asp Net Core 7.0",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Sql Server",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: apiweb,
+    source_code_link: "https://github.com/isasoul?tab=repositories",
   },
   {
-    name: "Job IT",
+    name: "EF Consulting",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "EF Consulting website provides a comprehensive range of services tailored specifically to the needs of the aviation industry, serving as a trusted advisor for airlines businesses.",
     tags: [
       {
-        name: "react",
+        name: "JavaScript",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Bootstrap",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "CSS",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: efconsulting,
+    source_code_link: "https://github.com/isasoul?tab=repositories",
   },
   {
-    name: "Trip Guide",
+    name: "Isa Soul",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    "Isa's Soul website showcases the work of a soulful singer and songwriter. Here, you'll find all the information you need to know about Isa, including her latest releases, upcoming events, and more.",
     tags: [
       {
-        name: "nextjs",
+        name: "JavaScript",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Bootstrap",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Sass",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: isasoul,
+    source_code_link: "https://github.com/isasoul?tab=repositories",
   },
+
 ];
 
 export {  services, technologies, experiences, testimonials, projects };

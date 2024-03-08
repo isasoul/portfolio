@@ -38,6 +38,9 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import isasoul from "./isasoulweb.png";
+import efconsulting from "./efconsulting.png";
+import apiweb from "./apiweb.png";
 import { color } from "framer-motion";
 
 export {
@@ -77,5 +80,8 @@ export {
   sqlserver,
   mysql,
   bootstrap,
+  isasoul,
+  efconsulting,
+  apiweb,
 
 };
