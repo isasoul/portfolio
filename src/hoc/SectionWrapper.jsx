@@ -11,8 +11,8 @@ const SectionWrapper = (Component, idName) =>
            variants={staggerContainer()}
            initial = "hidden"
            whileInView="show"
-           viewport={{once: true, amount: 0.25}}
-           className={`${styles.padding} max-w-7xl mx-auto relative z-0`}
+           viewport={{once: true, amount: 0.35}}
+           className="px-20 md:py-10 max-w-8xl mx-auto relative z-0"
            >
             <Component />
            </motion.section>

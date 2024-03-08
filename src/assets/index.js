@@ -20,11 +20,20 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import csharp from "./tech/Csharp_logo.png";
+import dotnet from "./tech/dotnet.png";
+import wordpress from "./tech/wordpress.png";
+import sqlserver  from "./tech/sqlserver.png";
+import mysql from "./tech/mysql2.jpg";
+import bootstrap from "./tech/bootstrap.png"
 
+import logoColor from "./company/logo-color.png";
+import JoinSolutions from "./company/JoinSolutions.png"
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -57,7 +66,16 @@ export {
   shopify,
   starbucks,
   tesla,
+  logoColor,
+  JoinSolutions,
   carrent,
   jobit,
   tripguide,
+  csharp,
+  dotnet,
+  wordpress,
+  sqlserver,
+  mysql,
+  bootstrap,
+
 };
